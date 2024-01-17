@@ -20,7 +20,7 @@ public class ProducerDemo {
 				Properties properties = new Properties();
 
 				//	set Producer Properties
-				properties.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "kafka1:9092");
+				properties.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
 				properties.setProperty(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
 				properties.setProperty(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
 
